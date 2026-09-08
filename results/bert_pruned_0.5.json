@@ -1,0 +1,21 @@
+{
+  "experiment": "bert_pruned_0.5",
+  "method": "unstructured_l1",
+  "amount": 0.5,
+  "accuracy": 0.944078947368421,
+  "macro_f1": 0.9440884013459564,
+  "total_parameters": 109485316,
+  "nonzero_parameters": 66721540,
+  "sparsity_pct": 39.05891453060244,
+  "size_mb": 417.7323389053345,
+  "compression_ratio": 1.0,
+  "performance_retention_pct": 99.5145631067961,
+  "python_version": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "5.16.1",
+  "datasets_version": "3.6.0",
+  "cuda_available": true,
+  "gpu_name": "Tesla T4",
+  "cuda_version": "12.8"
+}

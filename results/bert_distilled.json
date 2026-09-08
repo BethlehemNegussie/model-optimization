@@ -1,0 +1,42 @@
+{
+  "experiment": "bert_distilled",
+  "student_layers": 4,
+  "student_hidden_size": 384,
+  "student_heads": 6,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.2195041983083443,
+      "hard_loss": 0.49149879263858826,
+      "soft_loss": 1.9475096032354566
+    },
+    {
+      "epoch": 2,
+      "loss": 0.5326612115789343,
+      "hard_loss": 0.27371232977150767,
+      "soft_loss": 0.7916100930704011
+    },
+    {
+      "epoch": 3,
+      "loss": 0.4046364562842581,
+      "hard_loss": 0.21586560393966459,
+      "soft_loss": 0.5934073084703199
+    }
+  ],
+  "accuracy": 0.9193421052631578,
+  "macro_f1": 0.9191853183614291,
+  "total_parameters": 19165828,
+  "nonzero_parameters": 19165444,
+  "sparsity_pct": 0.0020035659299457347,
+  "size_mb": 73.14075088500977,
+  "compression_ratio": 5.7113487877925095,
+  "performance_retention_pct": 96.90707350901525,
+  "python_version": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "torch_version": "2.11.0+cu128",
+  "transformers_version": "5.16.1",
+  "datasets_version": "3.6.0",
+  "cuda_available": true,
+  "gpu_name": "Tesla T4",
+  "cuda_version": "12.8"
+}

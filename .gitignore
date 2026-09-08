@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints/
+
+# Large artifacts not meant for git
+results/checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
